@@ -53,7 +53,7 @@ send(shellcode.getfruit())
 
 El modulo ya provee un objeto hijo de BaseWin32Shellcode que encapsula ese codigo, llamado muy originalmente ExecShellcode.
 
-wishlist:
+### wishlist
 1. Para argumentos como strings o estructuras tengo que pre pushear todo al stack y calcular el puntero desde EBP.
 2. Hacer una variable de instancia que permita guardar el estado del stack, para soportar syscalls encadenadas (como bindshell).
 
