@@ -1,5 +1,4 @@
 # shellcodekitchen
-==================
 
 Este proyecto nacio como consecuencia de una rapida pasada por [shell-storm](shell-storm.org) en busca de una tipica shellcode exec calc para probar un exploit.
 
