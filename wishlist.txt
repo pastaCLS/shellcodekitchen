@@ -1,0 +1,3 @@
+1. Para argumentos como strings o estructuras tengo que pre pushear todo al stack y calcular el puntero desde EBP.
+2. Hacer una variable de instancia que permita guardar el estado del stack, para soportar syscalls encadenadas (como bindshell).
+3. Hacer un metodo nuevo que me deje buscar la libreria que le cargamos en argv[1] recorriendo LDR y que al nombre del modulo le haga un ROT13.
