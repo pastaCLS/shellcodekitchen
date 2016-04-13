@@ -44,6 +44,8 @@ Y transformamos nuestro exploitme en la linea de comandos:
 Por el momento shellcodekitchen, no da ninguna feature que no se podria conseguir con cualquier shell construida con msfvenom, pero a la hora de codearla es mucho mas intuitiva:
 
 ```python
+from shellcodekitchen.core import *
+
 shellcode = BaseWin32Shellcode()
 shellcode.syscall("WinExec", sys.argv[2])
 shellcode.quit()
